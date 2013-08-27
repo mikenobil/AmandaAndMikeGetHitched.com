@@ -1,0 +1,105 @@
+h1 
+	{
+	font-size: 36;
+	font-weight: bold;
+	text-align: center;
+	}
+div.main
+	{
+	background-image: url('assets/background.png'); 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-position: center center;
+	color: #000;
+	font-family: "Alice in Wonderland", palatino;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: auto;
+	padding-bottom: auto;
+	min-height: 700px;
+	width: auto; 
+	}
+div.title
+	{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 250px;
+	}
+div.wood
+	{
+	height: 800px;
+	width: 300px;
+	background-image: url('assets/trunk.png');
+	background-repeat: no-repeat;
+	float: left;
+	background-attachment: fixed;
+	position: fixed;
+	}
+div.nav
+	{
+	height: 500px;
+	width: 275px;
+	padding-top: 100px;
+	position: fixed;
+	}
+div.nav-button
+	{
+	height: 61px;
+	width: 275px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+div.content
+	{
+	opacity: 0.75;
+/*	START BORDER PROPERTIES */
+	border-image: url("assets/border.png") 65 65 65 65 repeat;
+	-moz-border-image:url("assets/border.png") 65 65 65 65 repeat;
+	-webkit-border-image:url("assets/border.png") 65 65 65 65 repeat;
+	border-width: 30px;
+/*	END BORDER PROPERTIES */
+	margin-left: 350px;
+	margin-right: 50px;
+	color: white;
+	font-size: 24px;
+	}
+div.content:hover
+	{
+	opacity: 0.9;
+	}
+div.who
+	{
+	
+	}
+iframe
+	{
+	margin:auto;
+	display:block;
+	}
+img
+	{
+	padding: 7px 7px 7px 7px ;
+	}
+a:link {color:#00FF00;}      /* unvisited link */
+a:visited {color:#FF00FF;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+/*
+div h1
+	{
+	color: #ffffff;
+	}
+#middle
+	{
+	position: absolute;
+	left: 340px
+	}
+#right
+	{
+	position: absolute;
+	left: 680px;
+	}
+*/
